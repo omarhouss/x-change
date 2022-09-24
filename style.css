@@ -1,0 +1,79 @@
+/**************body style*******************/
+
+body{
+    background: #121314;
+
+}
+
+/************* header style***************/
+
+.kf-logo {
+    position: absolute;
+    height: 42px;
+    left: 281px;
+    top : 57px
+}
+  
+.kf-logo img {
+    width: 80%;
+}
+
+.kf-main-menu ul {
+    font-family: 'Inter';
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    top: 52px;
+    left: 744px;
+  }
+
+.kf-main-menu ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.kf-main-menu ul li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.kf-btn.h-btn {
+    margin-left: 50px;
+    vertical-align: middle;
+  }
+
+.kf-btn{
+    font-family: 'Inter';
+    padding: 0 32px;
+    position: absolute;
+    left: 1437px;
+    top: 52px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    height: 50px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    border: solid 1px #ADC811;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
