@@ -5,75 +5,60 @@ body{
 
 }
 
-/************* header style***************/
 
-.kf-logo {
-    position: absolute;
-    height: 42px;
-    left: 281px;
-    top : 57px
-}
-  
-.kf-logo img {
-    width: 80%;
-}
-
-.kf-main-menu ul {
-    font-family: 'Inter';
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    top: 52px;
-    left: 744px;
+/************* wrapper style start***************/
+/* - Wrapper */
+.wrapper {
+    padding-top: 138px;
   }
-
-.kf-main-menu ul li {
-    margin-left: 15px;
-    margin-right: 15px;
+  .wrapper, .container {
     position: relative;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.kf-main-menu ul li a {
-    display: inline-block;
-    color: #fff;
-    font-size: 14px;
-    line-height: 50px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.kf-btn.h-btn {
-    margin-left: 50px;
-    vertical-align: middle;
   }
+/************* wrapper style end***************/
 
-.kf-btn{
-    font-family: 'Inter';
-    padding: 0 32px;
-    position: absolute;
-    left: 1437px;
-    top: 52px;
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 14px;
-    color: #FFF;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    height: 50px;
-    line-height: 48px;
+
+/**
+* Section Brands
+**/
+.section.kf-brands {
+    padding:0 7px 0 7px;
+    
+  }
+  
+  .kf-brands-items {
+    margin-top: -50px;
+  }
+  
+  .kf-brands-item {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     text-align: center;
-    text-decoration: none;
-    background: none;
-    border: solid 1px #ADC811;
-    outline: none !important;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    outline: none;
-    cursor: pointer;
-    border-radius: 40px;
-}
+    width: 100%;
+    height: 80px;
+  }
+  .kf-brands-item .image {
+    font-size: 0;
+    opacity: 0.2;
+    outline: hidden;
+    -o-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+    transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+    -webkit-transition: all 0.7s cubic-bezier(0.3, 0, 0.3, 1);
+  }
+  
+  
+  .kf-brands-item .image img {
+    max-height: 80px;
+  }
+  
+  .kf-brands-item:hover .image {
+    opacity: 1;
+  }
+  /**
